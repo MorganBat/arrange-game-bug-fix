@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Arrange Game Bug Fix Challenge
+
+- Similar to yesterday's morning challenge is another bug fix
+- Here is a working demo of today's code: http://demo8.downloader.tech/
+- Original code taken from: https://www.golangprograms.com/arrange-game.html
+- There are 5 bugs to find
+- Check solution branch for answers
+
 ## Available Scripts
 
 In the project directory, you can run:
