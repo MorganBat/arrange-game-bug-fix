@@ -29,7 +29,7 @@ class GameBody extends React.Component {
   setGameDimension(selectedDimension) {
     let initialArray = [];
     for (let i = 0; i < Math.pow(selectedDimension.value, 2); i++) {
-      initialArray[i] = i;
+      initialArray[j] = i;
     }
     //delete 0 from the beggining and add to the end
     initialArray.shift();
@@ -83,7 +83,7 @@ class GameBody extends React.Component {
   }
 
   isGameFinished() {
-    const currentState = this.state.gameData.reduce((a, b) => a.concat(b));
+    const currentState = this.state.gameData.reduce((a) => a.concat(b));
     const initialState = this.state.initialGameData;
     return initialState.every(function (row, index) {
       return initialState[index] === currentState[index];

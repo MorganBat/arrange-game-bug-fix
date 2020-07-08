@@ -1,6 +1,6 @@
 import React from 'react';
 import GameBody from './GameBody';
-import './App.css';
+import './App';
 
 function App() {
   return (

@@ -28,7 +28,7 @@ class StartMenu extends React.Component {
         <br />
         <Select
           options={gameDimensions}
-          onChange={this.props.setGameDimension}
+          onChange={this.props.setGameDimensions}
         />
       </div>
     );

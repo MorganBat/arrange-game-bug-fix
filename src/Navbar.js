@@ -12,7 +12,7 @@ function Navbar(props) {
           <p>
             Top Score: <span>{props.highScore}</span>{' '}
           </p>
-          {props.children}
+          {props}
         </nav>
       </div>
     </header>
